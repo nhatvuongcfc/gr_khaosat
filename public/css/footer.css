@@ -1,3 +1,5 @@
+.topbar{ z-index: 9999; position: fixed;  top: 0; width: 86%;}
+
 .region-footer {
     margin-top: 4rem;
     padding: 0;

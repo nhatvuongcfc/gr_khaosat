@@ -24,7 +24,7 @@
 <body id="page-top">
 
   <!-- Page Wrapper -->
-  <div id="wrapper">
+  <div id="wrapper" >
    <!-- Sidebar -->
    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
@@ -172,7 +172,7 @@
           <div id="content">
 
             <!-- Topbar -->
-            <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+            <nav class=" navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
               <!-- Sidebar Toggle (Topbar) -->
               <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
@@ -490,7 +490,8 @@
 
   <!-- Page level custom scripts -->
   <script src="{{asset('js/demo/chart-area-demo.js')}}"></script>
-  <script src="{{asset('js/demo/chart-pie-demo.js"')}}></script>
+  <script src="{{asset('js/demo/chart-pie-demo.js')}}"></script>
+  <script src="{{asset('js/head_nav.js')}}"></script>
 
 
 
