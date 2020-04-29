@@ -1,5 +1,5 @@
 
 @extends('templates.admin')
 @section('main')
-<h1>Hello </h1>
+<h1>Hello Hellllll </h1>
 @endsection
