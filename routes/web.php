@@ -21,8 +21,8 @@ Route::get('/', function () {
 Route::get('/admin', function () {
     return view('templates/admin');
 });
-Route::get('/class', function () {
-    return view('class');
+Route::get('/profile', function () {
+    return view('profile');
 });
 
 Auth::routes();

@@ -49935,19 +49935,31 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed (from ./node_modules/css-loader/index.js):\nModuleNotFoundError: Module not found: Error: Can't resolve '../fonts/poppins/Poppins-Bold.ttf' in 'C:\\xampp\\htdocs\\laravel\\gr_khaosat\\resources\\sass'\n    at C:\\xampp\\htdocs\\laravel\\gr_khaosat\\node_modules\\webpack\\lib\\Compilation.js:925:10\n    at C:\\xampp\\htdocs\\laravel\\gr_khaosat\\node_modules\\webpack\\lib\\NormalModuleFactory.js:401:22\n    at C:\\xampp\\htdocs\\laravel\\gr_khaosat\\node_modules\\webpack\\lib\\NormalModuleFactory.js:130:21\n    at C:\\xampp\\htdocs\\laravel\\gr_khaosat\\node_modules\\webpack\\lib\\NormalModuleFactory.js:224:22\n    at C:\\xampp\\htdocs\\laravel\\gr_khaosat\\node_modules\\neo-async\\async.js:2830:7\n    at C:\\xampp\\htdocs\\laravel\\gr_khaosat\\node_modules\\neo-async\\async.js:6877:13\n    at C:\\xampp\\htdocs\\laravel\\gr_khaosat\\node_modules\\webpack\\lib\\NormalModuleFactory.js:214:25\n    at C:\\xampp\\htdocs\\laravel\\gr_khaosat\\node_modules\\enhanced-resolve\\lib\\Resolver.js:213:14\n    at C:\\xampp\\htdocs\\laravel\\gr_khaosat\\node_modules\\enhanced-resolve\\lib\\Resolver.js:285:5\n    at eval (eval at create (C:\\xampp\\htdocs\\laravel\\gr_khaosat\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:13:1)\n    at C:\\xampp\\htdocs\\laravel\\gr_khaosat\\node_modules\\enhanced-resolve\\lib\\UnsafeCachePlugin.js:44:7\n    at C:\\xampp\\htdocs\\laravel\\gr_khaosat\\node_modules\\enhanced-resolve\\lib\\Resolver.js:285:5\n    at eval (eval at create (C:\\xampp\\htdocs\\laravel\\gr_khaosat\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:13:1)\n    at C:\\xampp\\htdocs\\laravel\\gr_khaosat\\node_modules\\enhanced-resolve\\lib\\Resolver.js:285:5\n    at eval (eval at create (C:\\xampp\\htdocs\\laravel\\gr_khaosat\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:25:1)\n    at C:\\xampp\\htdocs\\laravel\\gr_khaosat\\node_modules\\enhanced-resolve\\lib\\DescriptionFilePlugin.js:67:43\n    at C:\\xampp\\htdocs\\laravel\\gr_khaosat\\node_modules\\enhanced-resolve\\lib\\Resolver.js:285:5\n    at eval (eval at create (C:\\xampp\\htdocs\\laravel\\gr_khaosat\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:14:1)\n    at C:\\xampp\\htdocs\\laravel\\gr_khaosat\\node_modules\\enhanced-resolve\\lib\\Resolver.js:285:5\n    at eval (eval at create (C:\\xampp\\htdocs\\laravel\\gr_khaosat\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:25:1)\n    at C:\\xampp\\htdocs\\laravel\\gr_khaosat\\node_modules\\enhanced-resolve\\lib\\DescriptionFilePlugin.js:67:43\n    at C:\\xampp\\htdocs\\laravel\\gr_khaosat\\node_modules\\enhanced-resolve\\lib\\Resolver.js:285:5\n    at eval (eval at create (C:\\xampp\\htdocs\\laravel\\gr_khaosat\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:14:1)\n    at C:\\xampp\\htdocs\\laravel\\gr_khaosat\\node_modules\\enhanced-resolve\\lib\\Resolver.js:285:5\n    at eval (eval at create (C:\\xampp\\htdocs\\laravel\\gr_khaosat\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:13:1)\n    at C:\\xampp\\htdocs\\laravel\\gr_khaosat\\node_modules\\enhanced-resolve\\lib\\DirectoryExistsPlugin.js:27:15\n    at C:\\xampp\\htdocs\\laravel\\gr_khaosat\\node_modules\\enhanced-resolve\\lib\\CachedInputFileSystem.js:85:15\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)");
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./resources/sass/profile.scss":
+/*!*************************************!*\
+  !*** ./resources/sass/profile.scss ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 
 /***/ 0:
-/*!*****************************************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/login.scss ***!
-  \*****************************************************************************************/
+/*!***********************************************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/profile.scss ./resources/sass/login.scss ***!
+  \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! C:\xampp\htdocs\laravel\gr_khaosat\resources\js\app.js */"./resources/js/app.js");
 __webpack_require__(/*! C:\xampp\htdocs\laravel\gr_khaosat\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\xampp\htdocs\laravel\gr_khaosat\resources\sass\profile.scss */"./resources/sass/profile.scss");
 module.exports = __webpack_require__(/*! C:\xampp\htdocs\laravel\gr_khaosat\resources\sass\login.scss */"./resources/sass/login.scss");
 
 

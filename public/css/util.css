@@ -1731,7 +1731,8 @@
 .m-l-13 {margin-left: 13px;}
 .m-l-14 {margin-left: 14px;}
 .m-l-15 {margin-left: 15px;}
-.m-l-16 {margin-left: 16px;}
+/* .m-l-16 {margin-left: 16px;} */
+.m-l-16 {margin-left: 16%;}
 .m-l-17 {margin-left: 17px;}
 .m-l-18 {margin-left: 18px;}
 .m-l-19 {margin-left: 19px;}
@@ -2307,6 +2308,8 @@
 	width: 100%;
 	height: 100%;
 }
+.w-80 {width: 80%; margin-left: 18.5%;}
+.w-84 {width: 84%;}
 .w-full {width: 100%;}
 .h-full {height: 100%;}
 .max-w-full {max-width: 100%;}

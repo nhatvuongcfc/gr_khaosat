@@ -18,7 +18,9 @@
   <!-- Custom styles for this template-->
 <link href="{{asset('css/sb-admin-2.min.css')}}" rel="stylesheet">
 <link href="{{asset('css/footer.css')}}" rel="stylesheet">
-
+<link href="{{asset('css/util.css')}}" rel="stylesheet">
+{{-- <link rel="stylesheet" > --}}
+@yield('css')
 </head>
 
 <body id="page-top">
@@ -26,7 +28,7 @@
   <!-- Page Wrapper -->
   <div id="wrapper" >
    <!-- Sidebar -->
-   <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+   <ul class="navbar-nav sidebar bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
@@ -39,78 +41,55 @@
     <!-- Divider -->
     <hr class="sidebar-divider my-0">
 
-    <!-- Nav Item - Dashboard -->
-    <li class="nav-item active">
-      <a class="nav-link" href="index.php">
-        <i class="fas fa-fw fa-tachometer-alt"></i>
-        <span>Dashboard</span></a>
-    </li>
+
 
     <!-- Divider -->
     <hr class="sidebar-divider">
 
-    <!-- Heading -->
-    <div class="sidebar-heading">
-      Interface
-    </div>
-
-    <!-- Nav Item - Pages Collapse Menu -->
-    <li class="nav-item">
-      <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-        <i class="fas fa-fw fa-cog"></i>
-        <span>Components</span>
-      </a>
-      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-        <div class="bg-white py-2 collapse-inner rounded">
-          <h6 class="collapse-header">Custom Components:</h6>
-          <a class="collapse-item" href="buttons.html">Buttons</a>
-          <a class="collapse-item" href="cards.html">Cards</a>
-        </div>
-      </div>
-    </li>
 
 
 
 
-    <li class="nav-item">
-      <a class="nav-link" href="register.php">
+
+    <li class="nav-item " >
+      <a class="nav-link" href="#">
         <i class="fas fa-fw fa-user"></i>
         <span>User</span></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="register.php">
+      <a class="nav-link" href="#">
         <i class="fas fa-fw fa-users"></i>
         <span>Class</span></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="register.php">
-        <i class="fas fa-fw fa-file"></i>
-        <span>Test</span></a>
+      <a class="nav-link" href="#">
+        <i class="fas fa-columns"></i>
+        <span>Column Point</span></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="register.php">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
+          <i class="fas fa-fw fa-file"></i>
+          <span>Manager Exam</span>
+        </a>
+        <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Manager Exam:</h6>
+            <a class="collapse-item" href="#"><span>Exam</span></a>
+            <a class="collapse-item" href="#"><span>Question</span></a>
+            <a class="collapse-item" href="#"><span>Answer</span></a>
+          </div>
+        </div>
+      </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">
         <i class="fas fa-fw fa-chart-area"></i>
-        <span>Admin Profile</span></a>
+        <span>Transcript</span></a>
     </li>
 
 
 
     <!-- Nav Item - Utilities Collapse Menu -->
-    <li class="nav-item">
-      <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
-        <i class="fas fa-fw fa-wrench"></i>
-        <span>Utilities</span>
-      </a>
-      <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
-        <div class="bg-white py-2 collapse-inner rounded">
-          <h6 class="collapse-header">Custom Utilities:</h6>
-          <a class="collapse-item" href="utilities-color.html">Colors</a>
-          <a class="collapse-item" href="utilities-border.html">Borders</a>
-          <a class="collapse-item" href="utilities-animation.html">Animations</a>
-          <a class="collapse-item" href="utilities-other.html">Other</a>
-        </div>
-      </div>
-    </li>
+
 
     <!-- Divider -->
     <hr class="sidebar-divider">
@@ -364,7 +343,7 @@
       <a class="scroll-to-top rounded" href="#page-top">
         <i class="fas fa-angle-up"></i>
       </a>
-      <div class="container-fluid main">
+      <div class="container-fluid main m-t-100">
           @yield('main')
       </div>
 
@@ -397,40 +376,26 @@
 
       <!-- Footer -->
       <!-- Footer -->
-<footer class="page-footer font-small mdb-color lighten-3 pt-4">
+<footer class="page-footer font-small mdb-color lighten-3 pt-4 w-84 m-l-16">
 
       <div class="region-footer">
         <div class="footer">
-            <div class="footer-menu row">
-                <div class="col">
-                    <h4>Liên hệ</h4>
+                <div class="col footer-contact">
                     <ul>
-                        <li><p><i style="width:16px"class="fas fa-home mr-3"></i> 137 Đỗ Đăng Tuyển</p></li>
+                        <li><p><i style="width:16px"class="fas fa-home mr-3"></i> abc</p></li>
                         <li><p><i class="fas fa-phone mr-3"></i>0896204185</p></li>
-                        <li><p><i class="fas fa-envelope mr-3"></i>nhatvuong0699@gmail.com</p></li>
+
+                    </ul>
+                </div>
+                <div class="col footer-contact">
+                    <ul>
+                        <li><p><i class="fas fa-envelope mr-3"></i>abc@gmail.com</p></li>
                         <li><p><i class="fas fa-print mr-3"></i>123456789</p></li>
                     </ul>
                 </div>
-                 <div class="col">
-                    <h4>Col1</h4>
-                    <ul>
-                        <li><a href="#">link</a></li>
-                        <li><a href="#">link</a></li>
-                        <li><a href="#">link</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <h4>Col2</h4>
-                    <ul>
-                        <li><a href="#">link</a></li>
-                        <li><a href="#">link</a></li>
-                        <li><a href="#">link</a></li>
-                        <li><a href="#">link</a></li>
-                    </ul>
-                </div>
-                </div>
-                <div class="footer-social">
-                    <nav class="social">
+
+                <div class="footer-social col">
+                    <div class="social">
                         <ul>
                             <li class="nav-item">
                                 <a class="nav-link active" href="#">
@@ -453,16 +418,19 @@
                                 </a>
                             </li>
                         </ul>
-                    </nav>
-                    <div class="footer-extra">
-                      <p>Vinfast</p>
-                      <p> &copy Copyright Fast Track SE</p>
                     </div>
 
                 </div>
-            </div>
 
-        </div>
+
+
+            </div>
+            <div class="footer-extra">
+                <p>Fast Track SE</p>
+                <p> &copy Copyright Fast Track SE</p>
+              </div>
+
+
       </div>
   </footer>
   <!-- Footer -->
@@ -491,9 +459,17 @@
   <!-- Page level custom scripts -->
   <script src="{{asset('js/demo/chart-area-demo.js')}}"></script>
   <script src="{{asset('js/demo/chart-pie-demo.js')}}"></script>
-  <script src="{{asset('js/head_nav.js')}}"></script>
+  {{-- <script src="{{asset('js/.js')}}"></script> --}}
+@yield('js')
+<script >
+    // $(document).ready(function () {
 
-
+    //  $.lockfixed(".sidebar", {offset: {top: 20, bottom: 470} });
+    // });
+    $(" .sidebar").each(function() {
+         $(this).theiaStickySidebar()
+})
+</script>
 
 
 </body>
